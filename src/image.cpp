@@ -8,6 +8,8 @@
 #include <cmath>
 #include <algorithm>
 
+#define __arm__ 1
+
 #ifndef __arm__
 	#include <tmmintrin.h> // For SSE3 intrinsics used in unpack_yuy2_sse
 #else
